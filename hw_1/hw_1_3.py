@@ -19,5 +19,11 @@ elif x < 0 and y < 0:
     print("II")
 elif x < 0 and y < 0:
     print("III")
-elif x > 0 and y <0:
+elif x > 0 and y < 0:
     print("IV")
+elif x == 0 and y == 0:
+    print("Center")
+elif x == 0:
+    print("0x")
+elif y == 0:
+    print("0y")
