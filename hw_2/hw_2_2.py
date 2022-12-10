@@ -7,11 +7,7 @@
 # - пусть N = 4, 
 # тогда [ 1, 2, 6, 24 ] (1, 1*2, 1*2*3, 1*2*3*4)
 
-num = input("Введите число: ")
-sum = 1
-arr = []
-
-for i in num:
-    sum = sum*i
-    #arr[i] = sum
-    print(sum)
+import math
+num = int(input('Введите число: '))
+res = [math.factorial(i) for i in range(1, num+1)]
+print (f"Результат: {res}")
