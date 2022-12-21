@@ -6,3 +6,10 @@
 
 # - [2, 3, 5, 9, 3] -> на нечётных позициях элементы 
 # 3 и 9, ответ: 12
+
+
+def get_sum(nums: list[int]) -> int:
+    return sum(nums[1::2])
+
+list_one = [2, 3, 5, 9, 3]
+print(get_sum(list_one))
